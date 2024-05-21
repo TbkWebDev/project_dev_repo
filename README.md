@@ -1,53 +1,26 @@
-# CakePHP Application Skeleton
+# Tasty Bites Kitchen Website System development project
 
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 5.x.
+A project repository for creating website system for Tasty Bites Kitchen business to support routine activities. 
+It is built using the CakePHP framework, initially on version 5.0.1.
+This framework, as suggested by the name, uses PHP to dynamically create and serve web pages on the server-side, only loading what is necessary for the user.
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+It utilises a Model-View-Controller pattern, where:
+1. The "Model" acts as the “internal representations of information”
+2. The "template" acts as the “View - interface that presents information to and accepts it from the user”, 
+3. The "Controller" acts as the “software linking the two”, render the "template" or implement functions of the website
 
-## Installation
+To continue work on this product, you must understand how CakePHP functions and how to securely develop web applications. 
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+The framework can be accessed and downloaded from: 
+https://book.cakephp.org/5/en/index.html
 
-If Composer is installed globally, run
+For more details of the framework guidelines, a cookbook can be accessed from: 
+https://book.cakephp.org/5/en/index.html
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+For more details of the framework code structure, the framework api can be accessed from: 
+https://api.cakephp.org/5.0/
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit the environment specific `config/app_local.php` and set up the
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
-
-## Layout
-
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.

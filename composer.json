@@ -12,7 +12,7 @@
         "cakephp/plugin-installer": "^2.0",
         "mobiledetect/mobiledetectlib": "^3.74",
         "ramsey/uuid": "^4.7",
-        "stripe/stripe-php": "^14.5"
+        "stripe/stripe-php": "^15.0"
     },
     "require-dev": {
         "cakephp/bake": "^3.0.0",
